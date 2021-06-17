@@ -1,0 +1,18 @@
+init_position_x : 
+  - 1160
+  - 1160
+init_position_y : 
+  - 100
+  - 100
+init_yaw :
+  - 270
+  - 270
+teleport : {
+    beforeX : 1160,
+    beforeY : 100,
+    beforeP : 270,
+    afterX1 : 0,
+    afterY1 : 0,
+    afterX2 : -1000,
+    afterY2 : 301,
+}
