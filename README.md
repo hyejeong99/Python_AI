@@ -16,11 +16,15 @@ DQN을 이용해 학습시킨 뒤, 시뮬레이터 상에서 움직이기
 ![untitled2](https://user-images.githubusercontent.com/59854960/113093629-41caf080-922b-11eb-8eec-f0d173b93bfd.png)
 
 visdom으로 학습을 잘 진행하고 있는지 확인할 수 있다.
+
+http://localhost:8888/ 에 접속해 학습 상황을 확인할 수 있다.
+
 Loss는 감소하면서 0에 수렴하는 모습, Learning Curve는 증가하면서 100에 수렴하는 모습이 가장 이상적으로 잘 된 학습이라고 할 수 있다.
 
 ![untitled](https://user-images.githubusercontent.com/59854960/113093626-4099c380-922b-11eb-8b91-fdf5426472ff.png)
 
 시뮬레이터에서 자동차가 잘 학습을 하고 있는지 확인할 수 있다.
+
 리워드 값이 이전 리워드 값을 증가하면 동영상이 하나씩 만들어진다.
 
 # 2. CNN 이용해서 차선 감지
@@ -30,11 +34,14 @@ Loss는 감소하면서 0에 수렴하는 모습, Learning Curve는 증가하면
 - Learing CNN
 - Python
 
-
 ## CNN(Enet-SAD)
+
 Tusimple 데이터셋을 이용해 차선을 학습해줬다.
+
 차선을 찾는데 6개 미만의 점이 나오는 차선이 있었다. 
+
 이는 차선이 아닐 확률이 있으므로 제외시켜 줬다. 
+
 polyfit을 이용해 차선 점을 이어 선을 그려줬다.
 
 - [CNN](https://github.com/hyejeong99/Artificial-Intelligence/tree/master/CNN) - Recognize Car Lane
