@@ -80,5 +80,35 @@ keyInput = input() 을 사용해서 키 입력에 따라 파일이 다르게 실
 
 다음과 같은 이미지 파일 차선에 점을 찍으면, polyfit으로 점을 이어준다.
 
+# 4.CNN_example
 
+"펭귄 브로의 3분 딥러닝 파이토치맛" 교제 코드
+
+[3단원]
+
+tensor_basic.py -> 3-1
+
+tensor_operation.py -> 3-2
+
+autograd_basic.py -> 3-3
+
+image_recovery.py -> 3-4
+
+basic_neural_network.py -> 3-5
+
+
+[4단원]
+
+fashion_mnist.py -> 4-1
+
+neural_network.py  -> 4-2
+
+overfitting_and_regularization.py -> 4-3
+
+
+[5단원]
+
+cnn.py -> 5-1
+
+resnet.py -> 5-2
 
