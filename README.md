@@ -7,7 +7,7 @@ DQN을 이용해 학습시킨 뒤, 시뮬레이터 상에서 움직이기
 
 
 ## DQN
-이 업무의 목표는 거리센서 정보를 사용할 수 있는 시뮬레이터에서, 강화 학습 DQN 기반으로 학습을 시켜서 자동차가 벽과 충돌하지 않고, 죽지 않고 살아남도록 만들기이다.
+목표는 거리센서 정보를 사용할 수 있는 시뮬레이터에서, 강화 학습 DQN 기반으로 학습을 시켜서 자동차가 벽과 충돌하지 않고, 죽지 않고 살아남도록 만들기이다.
 
 - [DQN](https://github.com/hyejeong99/Artificial-Intelligence/tree/master/DQN) - Learning with DQN 
 
