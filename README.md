@@ -86,29 +86,22 @@ keyInput = input() 을 사용해서 키 입력에 따라 파일이 다르게 실
 
 [3단원]
 
-tensor_basic.py -> 3-1
-
-tensor_operation.py -> 3-2
-
-autograd_basic.py -> 3-3
-
-image_recovery.py -> 3-4
-
-basic_neural_network.py -> 3-5
+- tensor_basic.py -> 3-1
+- tensor_operation.py -> 3-2
+- autograd_basic.py -> 3-3
+- image_recovery.py -> 3-4
+- basic_neural_network.py -> 3-5
 
 
 [4단원]
 
-fashion_mnist.py -> 4-1
-
-neural_network.py  -> 4-2
-
-overfitting_and_regularization.py -> 4-3
+- fashion_mnist.py -> 4-1
+- neural_network.py  -> 4-2
+- overfitting_and_regularization.py -> 4-3
 
 
 [5단원]
 
-cnn.py -> 5-1
-
-resnet.py -> 5-2
+- cnn.py -> 5-1
+- resnet.py -> 5-2
 
